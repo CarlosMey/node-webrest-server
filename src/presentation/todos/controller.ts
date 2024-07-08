@@ -1,10 +1,8 @@
 import { Request, Response } from 'express';
 import { prisma } from '../../data/postgres';
-import { CreateTodoDto } from '../../domain/dtos/todos/create-todo.dto';
-import { UpdateTodoDto } from '../../domain/dtos/todos/update-todo.dto';
+import { CreateTodoDto, UpdateTodoDto } from '../../domain/dtos';
 // import { CreateTodoDto, UpdateTodoDto } from '../../domain/dtos';
 
- 
 
 export class TodosController {
 
